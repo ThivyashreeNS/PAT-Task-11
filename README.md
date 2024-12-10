@@ -78,7 +78,8 @@ This script contains the main logic for automating the drag-and-drop task using 
 
 ### Methods in `DragAndDrop` class:
 - __ __init()__:__
-       -Initializes the WebDriver, ActionChains (for simulating actions), and waits for elements to be interactable.
+  
+       - Initializes the WebDriver, ActionChains (for simulating actions), and waits for elements to be interactable.
 
        - Opens and maximize the DragAndDrop page (https://jqueryui.com/droppable/).
 
