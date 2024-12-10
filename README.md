@@ -77,6 +77,11 @@ This script contains the main logic for automating the drag-and-drop task using 
 - __DragAndDrop Class:__ Contains the logic to perform the drag-and-drop action and interact with the web page.
 
 ### Methods in `DragAndDrop` class:
+- __ __init()__:__
+       -Initializes the WebDriver, ActionChains (for simulating actions), and waits for elements to be interactable.
+
+       - Opens and maximize the DragAndDrop page (https://jqueryui.com/droppable/).
+
 - __validate_iframe():__
     - This method checks if the iframe is present on the page.
 
