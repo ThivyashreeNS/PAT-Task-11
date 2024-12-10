@@ -49,18 +49,18 @@ To successfully set up and run the Selenium Automation Testing Project, follow t
 
 ## Project Structure
 ```python
-PAT Task 11/
+PAT-Task-11/
 │
 ├── Task_11.py                        # Contains the main logic for automating the drag-and-drop task using Selenium.
 │   ├── class Data:                   # Contains the URL of the page to automate.
 │   ├── class Locators:               # Contains locators for the draggable and droppable elements.
-│   └── class DragAndDrop             # Main class to automate the drag-and-drop action.
-│       ├── def validate_iframe()     # Method to validate the iframe presence on the page.
+│   └── class DragAndDrop:            # Main class to automate the drag-and-drop action.
+│       ├── def validate_iframe():    # Method to validate the iframe presence on the page.
 │       └── def drag_drop():          # Method to perform the drag-and-drop action.
 │  
 ├── test_DragAndDrop.py               # Contains the test cases using pytest to verify the drag-and-drop functionality.
-│    ├── def test_validate_iframe()   # Test to validate the iframe presence.
-│    └── def test_drag_drop()         # Test to perform the drag-and-drop and verify success.
+│    ├── def test_validate_iframe():  # Test to validate the iframe presence.
+│    └── def test_drag_drop():        # Test to perform the drag-and-drop and verify success.
 │  
 ├── drag_drop.html                    # Pytest html report
 └── README.md                         # This README file
