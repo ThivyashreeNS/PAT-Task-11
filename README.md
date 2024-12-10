@@ -4,8 +4,6 @@
 This project demonstrates a web automation task using Selenium to perform a drag-and-drop action on the jQuery UI's draggable and droppable demo page.
 The task is wrapped in a class that interacts with a browser to automate the drag-and-drop action and verify its successful completion.
 
-
-
 ## Table of Contents:
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
